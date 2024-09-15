@@ -19,7 +19,7 @@ import Image from 'next/image'
 
 const Home = () => (
   <Layout>
-    <Container>
+    <Container mt={4}>
       <Box
         borderRadius="lg"
         mb={6}
@@ -36,7 +36,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Vinicius Spanol
           </Heading>
-          <p>Desenvolvedor de software</p>
+          <p>Desenvolvedor De Software Fullstack</p>
         </Box>
         <Box
           flexShrink={0}
@@ -71,7 +71,8 @@ const Home = () => (
         <Paragraph>
           Vinicius é um desenvolvedor de software que trabalha com tecnologias
           web e móveis. Ele é um desenvolvedor de software independente e
-          trabalha em projetos de código aberto e comerciais.
+          trabalha em projetos de código aberto e comerciais, possui experiência
+          em desenvolvimento de aplicativos móveis, web e backend.
         </Paragraph>
 
         <Box align="center" my={4}>
@@ -97,7 +98,21 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Completou o curso de desenvolvimento fullstack da Blue EdTech
+          Completou o curso de desenvolvimento fullstack da Blue EdTech.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Inicia a carreira de desenvolvedor de software fullstack de forma home office trabalhando para a VSA SOFTWARE, empresa situada no Rio de Janeiro.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Iniciou o desenolvimento de um projeto pessoal chamado Daichi uma rede social para geeks e nerds.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2024</BioYear>
+          Iniciou o desenvolvimento de um projeto pessoal chamado Alô Freela uma plataforma de freelancers para contratação de serviços, divulgação de trabalhos e networking.
         </BioSection>
       </Section>
 
